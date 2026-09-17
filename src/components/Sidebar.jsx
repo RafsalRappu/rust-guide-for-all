@@ -11,6 +11,7 @@ export default function Sidebar({ open, onNavigate }) {
       <NavLink to="/" className="sidebar__brand" onClick={onNavigate}>
         <span aria-hidden="true">🦀</span> Rust, for Everyone
       </NavLink>
+      <div className="sidebar__author">Made by Rafsal VB</div>
 
       <nav>
         {LEVELS.map((level) => {
